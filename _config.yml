@@ -1,0 +1,94 @@
+# Site
+repository: Kelly-Meadows/Kelly-Meadows.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kelly Meadows, PMP
+title: Marketing Manager
+email: kel.y.meadows@gmail.com
+website: www.kellymeadows.net
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: "Kelly-Meadows"
+linkedin_username: kellysepich
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I'm Kelly, and I manage marketing campaigns. I'm currently focusing on integrated marketing campaigns in the cloud security space.
+
+  I have extensive experience designing and building campaigns with components across the marketing funnel. I'm an organizer at heart: good organization allows me to execute on dozens of workstreams at once.
+
+content:
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Cisco Umbrella
+        link: cisco.com
+        sub_title: Marketing Manager
+        caption: 2015 - Present
+        description: | # this will include new lines to allow paragraphs
+         - Manages integrated marketing campaigns
+         - Owned webinar marketing program - coordinated speakers, design/brand assets, and vendors.
+         - Managed high budget ($1MM+) field events - event planning, logistics, booth buildout, lead management, ROI tracking.
+      - layout: left
+        title: Merola Opera Program
+        link: merola.org
+        sub_title: Annual Benefit Manager
+        caption: 2013-2015
+        description: |
+          - Managed annual benefit event, budget, and in-kind donations.
+          - Acted as main point of contact for the Board of Directors, field event staff, and vendors.
+          - Expanded brand awareness through the redevelopment of in-house marketing collateral.
+      - layout: left
+        title: Bauman College
+        link: baumancollege.org
+        sub_title: Online Marketing Coordinator
+        caption: 2011-2013
+        description: |
+          - Project managed open houses, retreats, and booth builds for national conferences.
+          - Developed and executed online rebranding optimizing landing pages and social media campaigns.
+          - Developed and managed annual budget and proposed targeted audiences.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: San Francisco State University
+        caption: 2011-2013
+        sub_title: MA, Communications
+      - layout: left
+        title: University of California, Santa Cruz
+        caption: 2005-2009
+        sub_title: BA, Film and Digital Media
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software some of my other interests and hobbies are:
+      - Tie Dye
+      - Cooking
+      - Hiking
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
